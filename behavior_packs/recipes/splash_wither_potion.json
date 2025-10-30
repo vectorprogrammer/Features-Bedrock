@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:recipe_brewing_container": {
     "description": {
-      "identifier": "mycustom:brew_splash_potion_of_decay"
+      "identifier": "convertedjava:brew_splash_potion_of_decay"
     },
     "tags": [ "brewing_stand" ],
     "input": "minecraft:potion:24",
