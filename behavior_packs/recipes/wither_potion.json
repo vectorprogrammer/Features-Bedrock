@@ -2,11 +2,11 @@
   "format_version": "1.16.100",
   "minecraft:recipe_brewing_mix": {
     "description": {
-      "identifier": "mycustom:brew_potion_of_decay_base"
+      "identifier": "convertedjava:brew_potion_of_decay_base"
     },
     "tags": [ "brewing_stand" ],
     "input": "minecraft:potion_type:awkward",
-    "reagent": "mycustom:new_withered_bone",
+    "reagent": "convertedjava:new_withered_bone",
     "output": "minecraft:potion:24"
   }
 }
