@@ -1,0 +1,12 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_brewing_container": {
+    "description": {
+      "identifier": "mycustom:brew_lingering_potion_of_decay"
+    },
+    "tags": [ "brewing_stand" ],
+    "input": "minecraft:splash_potion:24",
+    "reagent": "minecraft:dragon_breath",
+    "output": "minecraft:lingering_potion:24"
+  }
+}
