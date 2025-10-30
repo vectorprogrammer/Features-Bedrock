@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "myaddon:splash_wither_conversion"
+    },
+    "tags": [
+      "brewing_stand"
+    ],
+    "input": "minecraft:potion",
+    "reagent": "minecraft:gunpowder",
+    "output": "minecraft:splash_potion"
+  }
+}
