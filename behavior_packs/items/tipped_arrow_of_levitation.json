@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "rye:tipped_arrow_levitation",
+      "identifier": "convertedjava:tipped_arrow_levitation",
       "category": "equipment"
     },
     "components": {
