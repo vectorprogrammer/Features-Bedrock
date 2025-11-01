@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "convertedjava:monster_spawner"
+    },
+    "components": {
+      "minecraft:on_interact": {
+        "event": "modid:set_entity_type",
+        "condition": "query.get_equipped_item_name == 'spawn_egg'"
+      },
+      "minecraft:geometry": "geometry.empty",
+      "minecraft:loot": "loot_tables/blocks/monster_spawner.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 5.0
+      }
+    },
+    "events": {
+      "modid:set_entity_type": {
+        "sequence": [
+          {
+            "run_command": {
+              "target": "self",
+              "command": [
+                "say Mob Spawner entity type set! (Requires additional scripting or addon logic to fully function)"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
