@@ -1,0 +1,173 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:phantom",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"minecraft:phantom_spawn": {
+				"minecraft:timer": {
+					"time": 0.5,
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:summon_shulker"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": ["phantom", "monster", "undead"]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:health": {
+				"value": 20
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:navigation.walk": {
+				"can_float": true
+			},
+			"minecraft:movement.fly": {},
+			"minecraft:jump.static": {},
+			"minecraft:collision_box": {
+				"width": 0.9,
+				"height": 0.5
+			},
+			"minecraft:nameable": {},
+			"minecraft:behavior.phantom_trap": {
+				"priority": 0
+			},
+			"minecraft:behavior.float": {
+				"priority": 1
+			},
+			"minecraft:behavior.follow_target_if_leashed": {
+				"priority": 2
+			},
+			"minecraft:behavior.swoop_attack": {
+				"priority": 3,
+				"speed_multiplier": 1.0,
+				"attack_range": 16.0
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 4,
+				"look_distance": 6.0
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 5
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 1,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 64
+					}
+				],
+				"must_see": true
+			},
+			"minecraft:attack": {
+				"damage": 6
+			},
+			"minecraft:spawn_entity": {
+				"entities": [
+					{
+						"min_wait_time": 0.0,
+						"max_wait_time": 0.0,
+						"spawn_event": "minecraft:entity_born",
+						"spawn_item": "phantom_membrane",
+						"spawn_interval": 1,
+						"spawn_on_ground": true,
+						"min_count": 1,
+						"max_count": 2,
+						"filters": {
+							"test": "has_damage",
+							"value": false
+						}
+					}
+				]
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4.0,
+				"hard_distance": 6.0,
+				"max_distance": 10.0
+			},
+			"minecraft:balloonable": {
+				"mass": 0.5
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_values": [
+				{
+					"raw_text_name": "attack_damage",
+					"value": 6
+				}
+			],
+			"minecraft:behavior.summon_shulker": {
+				"priority": 6,
+				"max_dist": 10.0,
+				"min_activation_range": 10.0,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 10
+					}
+				],
+				"min_wait_time": 10.0,
+				"max_wait_time": 30.0,
+				"event": "minecraft:summon_shulker",
+				"probability": 0.05
+			}
+		},
+		"events": {
+			"minecraft:summon_shulker": {
+				"run_command": {
+					"command": [
+						"summon shulker ~ ~ ~"
+					]
+				}
+			}
+		},
+		"minecraft:spawn_rules": {
+			"description": {
+				"identifier": "minecraft:phantom",
+				"populationControl": "animal"
+			},
+			"conditions": [
+				{
+					"minecraft:spawns_on_block_filter": "end_stone",
+					"minecraft:spawns_in_dimension": "minecraft:the_end",
+					"minecraft:world_age": {
+						"min": 24000
+					},
+					"minecraft:weight": {
+						"default": 30
+					}
+				}
+			]
+		}
+	}
+}
