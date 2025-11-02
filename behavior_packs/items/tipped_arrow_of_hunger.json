@@ -1,77 +1,20 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:coal",
-          "weight": 1
-        }
-      ]
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "convertedjava:tipped_arrow_hunger",
+      "category": "equipment"
     },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "convertedjava:withered_bone",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:wither_skeleton_skull",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1
-              },
-              "limit": 1
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_looting",
-              "chance": 0.025,
-              "looting_multiplier": 0.01
-            }
-          ]
-        }
-      ],
+    "components": {
+      "minecraft:icon": {
+        "texture": "tipped_arrow_hunger"
+      },
+      "minecraft:display_name": {
+        "value": "item.tipped_arrow_hunger.name"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:enchantable": false,
+      "minecraft:render_offsets": "arrows"
     }
-  ]
+  }
 }
