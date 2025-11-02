@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_brewing_mix": {
+    "description": { "identifier": "convertedjava:hunger_base" },
+    "tags": [ "brewing_stand" ],
+    "input": "minecraft:potion",
+    "reagent": "minecraft:rotten_flesh",
+    "output": {
+      "item": "convertedjava:potion_of_hunger",
+      "data": 0
+    }
+  }
+}
