@@ -1,7 +1,7 @@
 {
   "format_version": "1.12.0",
   "minecraft:recipe_brewing_mix": {
-    "description": { "identifier": "convertedjava:hunger_strong" },
+    "description": { "identifier": "convertedjava:hunger_glowstone" },
     "tags": [ "brewing_stand" ],
     "input": { "item": "convertedjava:potion_of_hunger", "data": 0 },
     "reagent": "minecraft:glowstone_dust",
