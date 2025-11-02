@@ -1,10 +1,13 @@
 {
-  "format_version": "1.12.0",
-  "minecraft:recipe_brewing_container": {
-    "description": { "identifier": "convertedjava:hunger_splash" },
-    "tags": [ "brewing_stand" ],
-    "input": "convertedjava:potion_of_hunger",
-    "reagent": "minecraft:gunpowder",
-    "output": "minecraft:splash_potion"
+  "format_version": "1.20.70",
+  "minecraft:recipe_brewing": {
+    "description": {
+      "identifier": "convertedjava:hunger_splash_potion"
+    "tags": [
+      "brewing_stand"
+    ],
+    "input": "customhunger:potion_of_hunger_base",
+    "output": "convertedjava:splash_potion_of_hunger",
+    "reagent": "minecraft:gunpowder"
   }
 }
