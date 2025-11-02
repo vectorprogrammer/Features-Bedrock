@@ -6,7 +6,7 @@
     "tags": [
       "brewing_stand"
     ],
-    "input": "customhunger:potion_of_hunger_base",
+    "input": "convertedjava:potion_of_hunger_base",
     "output": "convertedjava:splash_potion_of_hunger",
     "reagent": "minecraft:gunpowder"
   }
