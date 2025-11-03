@@ -6,7 +6,7 @@
     },
     "tags": [ "brewing_stand" ],
     "input": "minecraft:potion_type:awkward",
-    "reagent": "convertedjava:new_withered_bone",
+    "reagent": "convertedjava:withered_bone",
     "output": "minecraft:potion:24"
   }
 }
