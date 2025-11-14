@@ -1,5 +1,6 @@
 {
-    "values": [
-        "loop/main_loop"
-    ]
+  "values": [
+    "convertedjava/reset_vaults",
+    "convertedjava/refresh_dispensers"
+  ]
 }
