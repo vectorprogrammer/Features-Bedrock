@@ -30,6 +30,20 @@
           "weight": 5, 
           "functions": [ { "function": "set_data", "data": 10 } ]
         },
+        
+        { 
+          "type": "item", 
+          "name": "minecraft:lingering_potion", 
+          "weight": 5, 
+          "functions": [ { "function": "set_data", "data": 18 } ]
+        },
+        
+        { 
+          "type": "item", 
+          "name": "minecraft:splash_potion", 
+          "weight": 5, 
+          "functions": [ { "function": "set_data", "data": 18 } ]
+        },
       ]
     }
   ]
