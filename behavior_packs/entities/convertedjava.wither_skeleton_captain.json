@@ -41,12 +41,12 @@
     },
     "components": {
       "minecraft:type_family": {
-        "family": [ "wither_skeleton", "monster", "undead", "captain" ]
+        "family": [ "wither_skeleton", "monster", "undead" ]
       },
       "minecraft:loot": "loot_tables/entities/wither_skeleton_captain.json",
       "minecraft:wither_skeleton": {},
       "minecraft:equipment": {
-        "table": "loot_tables/gameplay/equipment_netherite_sword.json",
+        "table": "loot_tables/gameplay/equipment_wither_skeleton_captain.json",
         "slot_drop_chance": [
           { "slot": "slot.weapon.mainhand", "drop_chance": 0.0 }
         ]
