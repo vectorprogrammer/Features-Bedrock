@@ -5,7 +5,8 @@
       "identifier": "convertedjava:chainmail_chestplate"
     },
     "tags": [
-      "crafting_table"
+      "crafting_table",
+      "crafter"
     ],
     "pattern": [
       "C C",
