@@ -2,13 +2,13 @@
   "format_version": "1.20",
   "minecraft:recipe_brewing_mix": {
     "description": {
-      "identifier": "my_namespace:dragons_breath_brewing"
+      "identifier": "convertedjava:dragons_breath_brewing"
     },
     "tags": [
       "brewing_stand"
     ],
     "input": "minecraft:potion",
-    "reagent": "minecraft:ender_eye",
+    "reagent": "minecraft:chorus_fruit",
     "output": "minecraft:dragon_breath"
   }
 }
