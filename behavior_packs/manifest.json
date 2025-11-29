@@ -1,0 +1,31 @@
+{
+  "format_version": 2.
+  "header":{
+    "description": "Behavior Pack that adds more features to Bedrock Edition. NOTE: YOU REQUIRE EXPERIMENTAL GAMEPLAY OR IF YOU ARE ON XBOX/PLAYSTATION/NINTENDO EDITION, YOU NEED A BEDROCK DEDICATED SERVER WITH EXPERIMENTAL GAMEPLAY TO USE SOME FEATURES
+    "name": "SomeModsIGuess Behavior Pack"
+    "uuid": "f132202c-abdc-414d-8476-dc05e7081c92"
+    "version":[1,0,0]
+    "min_engine_version":[1,21,50]
+  }
+}
+"modules": [
+    {
+      "type": "data",
+      "uuid": "17452f00-e334-4a71-874a-e506176ed069",
+      "version": [1, 0, 0]
+    },
+    // ADD THIS SCRIPT MODULE
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "410c46c6-79d5-4b8c-b3df-4ab2d076880c",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+],
+"dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    }
+]
