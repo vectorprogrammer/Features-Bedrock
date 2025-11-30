@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "convertedjava:netherite_crafter",
+			"menu_category": {
+				"category": "utility",
+				"group": "itemGroup.name.crafting"
+			}
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "netherite_crafter",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3.0
+			},
+			"minecraft:explosion_resistance": 1200.0,
+			"minecraft:map_color": "#111111",
+			"minecraft:on_interact": {
+				"event": "open_crafter_ui",
+				"target": "self"
+			}
+		},
+		"events": {
+			"open_crafter_ui": {
+				"run_command": {
+					"command": "scriptevent convertedjava:open_crafter"
+				}
+			}
+		}
+	}
+}
