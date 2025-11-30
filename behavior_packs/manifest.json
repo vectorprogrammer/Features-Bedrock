@@ -1,10 +1,10 @@
 {
-  "format_version": 2.
+  "format_version": 2,
   "header":{
     "description": "Behavior Pack that adds more features to Bedrock Edition. Experimental Gameplay is required to play this, though for Console Bedrock Editions, a Bedrock Dedicated Server with Experimental Gameplay is required."
-    "name": "SomeModsIGuess Behavior Pack"
-    "uuid": "f132202c-abdc-414d-8476-dc05e7081c92"
-    "version":[1,0,0]
+    "name": "SomeModsIGuess Behavior Pack",
+    "uuid": "f132202c-abdc-414d-8476-dc05e7081c92",
+    "version":[1,0,0],
     "min_engine_version":[1,21,130]
   }
 }
