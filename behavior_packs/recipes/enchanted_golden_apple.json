@@ -5,8 +5,7 @@
       "identifier": "my_namespace:enchanted_golden_apple_recipe"
     },
     "tags": [
-      "crafting_table",
-      "crafter"
+      "crafting_table"
     ],
     "pattern": [
       "AAA",
