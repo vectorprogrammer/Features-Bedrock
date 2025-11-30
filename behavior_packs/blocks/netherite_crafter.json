@@ -1,36 +1,54 @@
 {
-	"format_version": "1.20.0",
+	"format_version": "1.20.50",
 	"minecraft:block": {
 		"description": {
-			"identifier": "convertedjava:netherite_crafter",
-			"menu_category": {
-				"category": "utility",
-				"group": "itemGroup.name.crafting"
-			}
+			"identifier": "custom:netherite_crafter"
 		},
 		"components": {
-			"minecraft:unit_cube": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5
+			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "netherite_crafter",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 3.0
+			"minecraft:map_color": "#393939",
+			"minecraft:explosion_resistance": 1200,
+			"minecraft:flammable": {
+				"destroy_chance": 0,
+				"catch_chance": 0
 			},
-			"minecraft:explosion_resistance": 1200.0,
-			"minecraft:map_color": "#111111",
-			"minecraft:on_interact": {
-				"event": "open_crafter_ui",
-				"target": "self"
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:light_dampening": 0,
+			"minecraft:inventory": {
+				"container_type": "hopper",
+				"inventory_size": 27,
+				"can_dropper_dispense": false
+			},
+			"minecraft:interact": {
+				"on_interact": {
+					"event": "custom:open_crafter_ui"
+				},
+				"use_on_tag": "any"
 			}
 		},
 		"events": {
-			"open_crafter_ui": {
-				"run_command": {
-					"command": "scriptevent convertedjava:open_crafter"
-				}
+			"custom:open_crafter_ui": {
+				"sequence": [
+					{
+						"trigger": {
+							"event": "minecraft:on_open_container"
+						}
+					},
+					{
+						"run_command": {
+							"command": "scriptevent custom:crafter_opened"
+						}
+					}
+				]
 			}
 		}
 	}
