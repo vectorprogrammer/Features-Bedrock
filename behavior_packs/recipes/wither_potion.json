@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:recipe_brewing_mix": {
     "description": {
-      "identifier": "convertedjava:brew_potion_of_decay_base"
+      "identifier": "convertedjava:decay_potion_base"
     },
     "tags": [ "brewing_stand" ],
     "input": "minecraft:potion_type:awkward",
