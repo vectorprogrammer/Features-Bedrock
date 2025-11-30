@@ -23,7 +23,7 @@
           "parent": "base",
           "pivot": [8, 8, 8],
           "cubes": [
-            {"origin": [0, 8, 0], "size": [16, 4, 16], "uv": [0, 24]} // Ancient debris texture
+            {"origin": [0, 8, 0], "size": [16, 4, 16], "uv": [0, 24]}
           ]
         },
         {
@@ -31,7 +31,7 @@
           "parent": "base",
           "pivot": [8, 12, 8],
           "cubes": [
-            {"origin": [1, 12, 1], "size": [14, 2, 14], "uv": [0, 44]} // Netherite slab on top
+            {"origin": [1, 12, 1], "size": [14, 2, 14], "uv": [0, 44]}
           ]
         }
       ]
