@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "my_namespace:enchanted_golden_apple_recipe"
+      "identifier": "convertedjava:enchanted_golden_apple_recipe"
     },
     "tags": [
       "crafting_table"
