@@ -1,0 +1,22 @@
+{
+  "format_version": 1.21
+  "minecraft:recipe_shaped":{
+    "description": {
+      "identifier": "convertedjava:emerald_boots_recipe"
+      },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "   "
+      "# #"
+      "# #"
+    ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result":{
+    "item": "convertedjava:emerald_boots"
+    }
+  }
+}
