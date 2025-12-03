@@ -1,6 +1,5 @@
-item.convertedjava:tipped_arrow_levitation=Tipped Arrow of Levitation
-item.convertedjava:tipped_arrow_miningfatigue=Tipped Arrow of Mining Fatigue
-item.convertedjava:tipped_arrow_hunger=Tipped Arrow of Hunger
-itemconvertedjava:splash_potion_of_hunger=Splash Potion of Hunger
-item.convertedjava:lingering_potion_of_hunger=Lingering Potion of Hunger
-item.convertedjava:withered_bone=Withered Bone
+item.featuresbedrock:tipped_arrow_levitation=Tipped Arrow of Levitation
+item.featuresbedrock:tipped_arrow_miningfatigue=Tipped Arrow of Mining Fatigue
+item.featuresbedrock:tipped_arrow_hunger=Tipped Arrow of Hunger
+item.featuresbedrock:splash_potion_of_hunger=Splash Potion of Hunger
+item.featuresbedrock:lingering_potion_of_hunger=Lingering Potion of Hunger
