@@ -1,5 +1,5 @@
 {
-	"namespace": "convertedjava",
+	"namespace": "featuresbedrock",
 	"netherite_crafter_screen": {
 		"type": "screen",
 		"is_modal": true,
