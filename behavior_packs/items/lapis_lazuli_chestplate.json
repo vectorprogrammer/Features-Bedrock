@@ -24,8 +24,8 @@
       },
       "minecraft:repairable": {
         "repair_items": [
-          {"items": ["minecraft:lapis_lazuli"], "repair_amount": "query.max_durability"}
-          {"items": ["featuresbedrock:lapis_lazuli_chestplate"], "repair_amount": "query.max_durability"}
+          {"items": ["minecraft:lapis_lazuli"], "repair_amount": "query.max_durability * 0.25"}
+          {"items": ["featuresbedrock:lapis_lazuli_chestplate"], "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"}
         ]
       },
       "minecraft:tags": {
