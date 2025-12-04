@@ -28,7 +28,7 @@
             "repair_amount": "query.max_durability"
           },
           {"items": ["minecraft:blackstone"], "repair_amount": "query.max_durability"},
-          {"items": ["minecraft:cobblestone"], "repair_amount": "query.max_durability"}
+          {"items": ["minecraft:cobblestone"], "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"}
         ]
       },
       "minecraft:wearable": {
