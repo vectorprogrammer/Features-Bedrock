@@ -17,19 +17,21 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-            "items": ["minecraft:cobbled_deeplslate", "minecraft:cobblestone", "minecraft:blackstone"], 
-            "repair_amount": "query.max_durability * 0.25"
+            "items": ["minecraft:cobbled_deeplslate"], 
+            "repair_amount": "query.max_durability"
           },
           {
             "items": ["featuresbedrock:stone_chestplate"],
             "repair_amount": "query.max_durability"
-          }
+          },
+          {"items": ["minecraft:blackstone"], "repair_amount": "query.max_durability"},
+          {"items": ["minecraft:cobblestone"], "repair_amount": "query.max_durability"}
         ]
       },
       "minecraft:wearable": {
         "slot": "slot.armor.chest",
-        "protection": 5, // Protection value
-        "dispense_on_crit_hit": true // Allows dispensing via dropper
+        "protection": 5,
+        "dispense_on_crit_hit": true 
       },
       "minecraft:icon": {
         "texture": "stone_chestplate"
