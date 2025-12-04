@@ -11,7 +11,7 @@
       "minecraft:icon": { "texture": "emerald_chestplate" },
       "minecraft:enchantable": {
         "value": 14,
-        "slot": "armor_chest"
+        "slot": "armor_torso"
       },
       "minecraft:durability": {
         "max_durability": 530
