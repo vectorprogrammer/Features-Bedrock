@@ -7,21 +7,36 @@
         },
         "splash_potion_of_hunger": {
             "textures": "textures/items/splash_potion_hunger"
-        }
+        },
         "lingering_potion_of_hunger": {
           "textures": "textures/items/lingering_potion_hunger"
-        }
+        },
         "tipped_arrow_hunger":{
           "textures": "/textures/items/tipped_arrow_hunger"
-        }
+        },
         "tipped_arrow_miningfatigue": {
           "textures": "textures/items/tipped_arrow_miningfatigue"
-        }
+        },
         "tipped_arrow_levitation": {
           "textures": "textures/items/tipped_arrow_levitation"
-        }
+        },
         "netherite_crafter": {
             "textures": "textures/items/netherite_crafter"
-        }
+        },
+        "lapis_lazuli_chestplate": {
+            "textures": "textures/items/lapis_lazuli_chestplate"
+        },
+        "emerald_chestplate": {
+            "textures": "textures/items/emerald_chestplate"
+        },
+        "emerald_leggings": {
+            "textures": "textures/items/emerald_leggings"
+        },
+        "lapis_lazuli_hoe": {
+            "textures": "textures/items/lapis_lazuli_hoe"
+        },
+        "amethyst_sword": {
+            "textures": "textures/items/amethyst_sword"
+        },
     }
 }
