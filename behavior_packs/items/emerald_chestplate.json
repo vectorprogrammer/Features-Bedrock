@@ -23,7 +23,7 @@
       }
       "minecraft:repairable": {
         "repair_items": [
-          { "items": [ "minecraft:emerald" ], "repair_amount": "query.max_durability" }
+          { "items": [ "minecraft:emerald" ], "repair_amount": "query.max_durability * 0.25" }
           { "items": ["featuresbedrock:emerald_chestplate"], "repair_amount": "query.max_durability"}
         ]
       },
