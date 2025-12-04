@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "featuresbedrock:lapis_lazuli_chestplate",
+      "category": "equipment"
+      "group": "itemGroup.name.chestplate"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "slot": "armor_chest"
+        "value": 20
+      },
+      "minecraft:durability":{
+        "max_durability": 560
+      },
+      "minecraft:wearable":{
+        "slot": "slot.armor.chest"
+        "dispensable": false,
+        "protection":7
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {"items": ["minecraft:lapis_lazuli"], "repair_amount": "query.max_durability"}
+          {"items": ["featuresbedrock:lapis_lazuli_chestplate"], "repair_amount": "query.max_durability"}
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      },
+      "minecraft:icon": {"texture": "lapis_lazuli_chestplate"}
+    }
+  }
+}
