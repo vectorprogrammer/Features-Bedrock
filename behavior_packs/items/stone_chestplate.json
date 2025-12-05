@@ -52,7 +52,7 @@
         ]
       }
       "minecraft:display_name": {
-        "value": "Stone Chestplate"
+        "value": "item.featuresbedrock:stone_chestplate.name"
       }
     }
   }
