@@ -1,6 +1,5 @@
 {
   "pools": [
-    // Vanilla Shulker Shell Drop (0-1 + Looting)
     {
       "rolls": 1,
       "entries": [
@@ -17,7 +16,6 @@
         }
       ]
     },
-    // NEW: Tipped Arrow of Levitation (0-3 base + Looting)
     {
       "rolls": 1,
       "entries": [
@@ -28,16 +26,14 @@
           "functions": [
             {
               "function": "set_data",
-              "data": 25 
-              // Data value 25 = Tipped Arrow of Levitation
+              "data": 25
             },
             {
               "function": "looting_enchant",
               "count": {
                 "min": 0,
                 "max": 3,
-                "delta": 1 
-                // 0-3 base, +1 per level of looting
+                "delta": 1
               }
             }
           ]
