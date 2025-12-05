@@ -4,7 +4,7 @@
     "description": {
     "identifier": "featuresbedrock:redstone_ingot"
     },
-    "tags": ["furnace"],
+    "tags": ["furnace","blast_furnace"],
     "input": "minecraft:redstone_dust",
     "output": "featuresbedrock:redstone_ingot"
   }
