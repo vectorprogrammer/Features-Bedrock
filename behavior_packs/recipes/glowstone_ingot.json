@@ -1,0 +1,11 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "featuresbedrock:glowstone_ingot"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "input": "minecraft:glowstone_dust",
+    "output": "minecraft:glowstone_ingot"
+  }
+}
