@@ -33,7 +33,9 @@
       "minecraft:tags": {
         "tags": [
           "minecraft:is_armor",
-          "minecraft:trimmable_armors"
+          "minecraft:trimmable_armors",
+          "minecraft:is_wearable",
+          "minecraft:is_trimmable"
         ]
       }
     }
