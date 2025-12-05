@@ -24,9 +24,11 @@
       },
       "minecraft:repairable": {
         "repair_items": [
-          {"items": ["minecraft:lapis_lazuli"], "repair_amount": "query.max_durability * 0.25"}
-          {"items": ["featuresbedrock:lapis_lazuli_chestplate"], "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"}
-        ]
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ],
+            "repair_amount": "query.max_durability * 0.25"
       },
       "minecraft:tags": {
         "tags": [
@@ -36,8 +38,12 @@
           "minecraft:is_trimmable"
         ]
       },
-      "minecraft:icon": {"texture": "lapis_lazuli_chestplate"},
-      "minecraft:display_name":{"value": "Lapis Lazuli Chestplate"}
+      "minecraft:icon": {
+        "texture": "lapis_lazuli_chestplate"
+      },
+      "minecraft:display_name":{
+        "value": "item.featuresbedrock:lapis_lazuli_chestplate.name"
+      }
     }
   }
 }
