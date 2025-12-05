@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "featuresbedrock:glowstone_ingot",
+      "menu_category": {
+        "group": "itemGroup.name.ingots",
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "texture": "glowstone_ingot"
+      },
+      "minecraft:display_name": {
+        "value": "item.featuresbedrock:glowstone_ingot.name"
+      }
+    }
+  }
+}
