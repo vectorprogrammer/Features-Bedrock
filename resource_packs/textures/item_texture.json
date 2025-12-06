@@ -38,5 +38,62 @@
         "amethyst_sword": {
             "textures": "textures/items/amethyst_sword"
         },
+        "amethyst_axe": {
+            "textures": "textures/items/amethyst_axe"
+        },
+        "amethyst_hoe" :{
+            "textures": "textures/items/amethyst_hoe"
+        },
+        "amethyst_shovel":{
+            "textures": "textures/items/amethyst_shovel"
+        },
+        "amethyst_helmet": {
+            "textures": "textures/items/amethyst_helmet"
+        },
+        "emerald_hoe": {
+            "textures": "textures/items/emerald_hoe"
+        },
+        "amethyst_chestplate": {
+            "textures": "textures/items/amethyst_chestplate"
+        },
+        "amethyst_leggings": {
+            "textures": "textures/items/amethyst_leggings"
+        },
+        "redstone_ingot": {
+            "textures": "textures/items/redstone_ingot"
+        },
+        "glowstone_ingot": {
+            "textures": "textures/items/glowstone_ingot"
+        },
+        "redstone_helmet": {
+            "textures": "textures/items/redstone_helmet"
+        },
+        "redstone_sword": {
+            "textures": "textures/items/redstone_sword"
+        },
+        "redstone_chestplate": {
+            "textures": "textures/items/redstone_chestplate"
+        },
+        "redstone_pickaxe": {
+            "textures": "textures/items/redstone_pickaxe"
+        },
+        "redstone_helmet": {
+            "textures": "textures/items/redstone_helmet"
+        },
+        "redstone_leggings": {
+            "textures": "textures/items/redstone_leggings"
+        },
+        "redstone_boots": {
+            "textures": "textures/items/redstone_boots"
+        },
+        "redstone_hoe": {
+            "textures": "textures/items/redstone_hoe"
+        },
+        "redstone_axe": {
+            "textures": "textures/items/redstone_axe"
+        },
+        "redstone_shovel": {
+            "textures/items/redstone_shovel"
+        },
     }
 }
