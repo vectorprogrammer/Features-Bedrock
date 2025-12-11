@@ -8,6 +8,12 @@
       "is_experimental": true,
     },
     "components":{
+      "minecraft:loot":{
+        "table":"loot_tables/entities/wither_skeleton.json"
+      },
+      "minecraft:equipment":{
+        "table":"loot_tables/entities/wither_skeleton_captain_gear.json"
+      },
       "minecraft:type_family": {
         "family": ["wither", "monster", "undead", "skeleton", "mob"]
       },
