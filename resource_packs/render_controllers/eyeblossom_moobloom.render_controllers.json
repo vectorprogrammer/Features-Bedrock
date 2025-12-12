@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers":{
+    "controller.render.mooshroom": {
+      "arrays": {
+        "textures": {
+          "Array.skins":[
+            "/textures/entity/eyeblossom_moobloom"
+          ]
+        },
+        "geometry": "/models/entity/moobloom",
+        "materials": [
+          {
+            "*":"Material.default"
+          }
+        ],
+        "textures":[
+          "Array.skins"
+        ]
+      }
+    }
+  }
+}
