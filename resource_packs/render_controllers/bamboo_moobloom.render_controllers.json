@@ -5,11 +5,10 @@
       "arrays": {
         "textures": {
           "Array.skins":[
-            // REMEMBER TO DEFINE IN ENTITY FILE. IT IS THE ENTITY TEXTURE IMAGE
             "/textures/entity/bamboo_moobloom"
           ]
         },
-        "geometry": "/models/entity/moobloom", //REMEMBER TO DEFINE THIS IN ENTITY FILE. IT IS THE GEOMETRY JSON
+        "geometry": "/models/entity/moobloom",
         "materials": [
           {
             "*":"Material.default"
