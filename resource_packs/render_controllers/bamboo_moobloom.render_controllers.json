@@ -15,7 +15,7 @@
           }
         ],
         "textures":[
-          "Array.skins[query.variant]"
+          "Array.skins"
         ]
       }
     }
