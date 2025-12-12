@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.mooshroom.baby_transform": {
+		"animation.crimson_mooshroom.baby_transform": {
 			"loop": true,
 			"bones": {
 				"head": {
@@ -10,7 +10,7 @@
 				}
 			}
 		},
-		"animation.mooshroom.walk": {
+		"animation.crimson_mooshroom.walk": {
 			"loop": true,
 			"anim_time_update": "query.modified_distance_moved",
 			"bones": {
