@@ -8,7 +8,7 @@
             "/textures/entity/eyeblossom_moobloom"
           ]
         },
-        "geometry": "/models/entity/moobloom",
+        "geometry": "geomtery.generic_moobloom",
         "materials": [
           {
             "*":"Material.default"
