@@ -8,7 +8,7 @@
             "/textures/entity/bamboo_moobloom"
           ]
         },
-        "geometry": "/models/entity/moobloom",
+        "geometry": "geometry.generic_moobloom",
         "materials": [
           {
             "*":"Material.default"
