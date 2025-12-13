@@ -27,6 +27,14 @@
 					"rotation": ["math.cos(query.anim_time * 38.17) *  80.0", 0, 0]
 				}
 			}
+		},
+		"animation.mooshroom.setup":{
+			"loop": true,
+			"bones":{
+				"body": {
+					"rotation": ["-this", 0.0, 0.0]
+				}
+			}
 		}
 	}
 }
