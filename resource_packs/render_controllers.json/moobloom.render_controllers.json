@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.moobloom": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.bamboo",
+            "Texture.wither",
+            "Texture.rose",
+            "Texture.cherry",
+            "Texture.lily",
+            "Texture.buttercup",
+            "Texture.orchid",
+            "Texture.orangetulip",
+            "Texture.poppy",
+            "Texture.eyeblossom",
+            "Texture.cornflower",
+            "Texture.chorus",
+            "Texture.lilac",
+            "Texture.bluet",
+            "Texture.cactus",
+            "Texture.azalea",
+            "Texture.pinktulip",
+            "Texture.redtulip",
+            "Texture.sunflower",
+            "Texture.oxeyedaisy"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}
