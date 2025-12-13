@@ -1,12 +1,11 @@
 {
   "format_version": "1.8.0",
   "render_controllers": {
-    "controller.render.nethermooshroom": {
+    "controller.render.warpedmooshroom": {
       "arrays": {
         "textures": {
           "Array.skins": [
-            "Texture.warped_mooshroom",
-            "Texture.crimson_mooshroom"
+            "Texture.warped_mooshroom"
           ]
         }
       },
